@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 module "vnet" {
-  source = "git::https://github.com/<your-username>/terraform-vnet-module.git?ref=v1.0.0"
+  source = "git::https://github.com/SimranSah1/terraform-vnet-module.git?ref=v1.0.0"
 
   vnet_name           = var.vnet_name
   vnet_address_space  = var.vnet_address_space
